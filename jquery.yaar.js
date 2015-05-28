@@ -123,7 +123,7 @@
             // Determine line height
             $("body").append(sizer);
             sizer.text("a");
-            this.lineHeight = sizer.height();
+            this.lineHeight = sizer.width();
             sizer.text("");
             sizer.remove();
 
