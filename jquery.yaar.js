@@ -113,9 +113,9 @@
 
             var sizer = this.sizer;
             sizer.css("position", "absolute");
-            sizer.css("display", "inline-block");
+            sizer.css("display", "inline");
             sizer.css("visibility", "hidden");
-            sizer.css("display", "inline-block");
+            sizer.css("display", "inline");
             $.each(cssAttrs, function(i, attr) {
                 sizer.css(attr, textarea.css(attr));
             });
