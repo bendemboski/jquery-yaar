@@ -109,7 +109,7 @@
 
             // Set some basic attributes on the textarea
             textarea.css("resize", "none");
-            textarea.css("overflow", "hidden");
+            textarea.css("overflow", "visible");
 
             var sizer = this.sizer;
             sizer.css("position", "absolute");
